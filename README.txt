@@ -7,7 +7,7 @@ Be carefull with how you use the scripts and try to avoid legal trouble, enjoy.
 License:
 MIT License
 
-Copyright (c) 2022 Ghoul3r
+Copyright (c) 2022 Machorius
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
